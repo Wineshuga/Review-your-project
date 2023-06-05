@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: auto;
+    background-color: #eee;
+}
+
+#header>img {
+    width: 30%;
+}
+
+#features >div {
+    margin: 2rem;
+}
+
+#nav-bar>ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ddd;
+}
+
+#how-it-works {
+    width: 300px;
+    margin: auto;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pricing>div>.head {
+    background-color: #ddd;
+}
+
+#pricing>div {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    line-height: 2;
+    border: 1px solid;
+}
+
+main {
+    padding: 5rem;
+    width: 900px;
+    margin: auto;
+}
+
+#submit {
+    background-color: #f1c40f;
+
+}
+
+form {
+    display: block;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 350px) {
+    #pricing {
+        display: block;
+    }
+    
+}
